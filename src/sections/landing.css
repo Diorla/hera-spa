@@ -50,6 +50,7 @@ li {
 }
 nav a {
   color: chartreuse;
+  text-shadow: 0 0 2px black;
 }
 li:hover {
   background: #7fff6b;
