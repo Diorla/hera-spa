@@ -58,6 +58,7 @@ li:hover {
 }
 li:hover a {
   color: black;
+  text-shadow: none;
 }
 .landing main {
   color: white;
