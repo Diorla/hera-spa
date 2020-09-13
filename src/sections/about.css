@@ -1,0 +1,30 @@
+#about {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+#about > article {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  background: #333;
+  color: white;
+  min-width: 320px;
+  min-height: 240px;
+}
+#about > article:last-child {
+  background-image: url("./assets/flower.jpg");
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+#about div {
+  background: #111;
+  margin: 4px;
+  border: 1px solid white;
+  border-radius: 4px;
+  text-align: justify;
+  padding: 4px;
+}
