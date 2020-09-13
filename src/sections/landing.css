@@ -4,7 +4,7 @@ section.landing {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url("./massage.jpg");
+  background-image: url("./assets/massage.jpg");
   background-size: cover;
 }
 nav h1 {

@@ -1,9 +1,9 @@
 import React from "react";
 import "./service.css";
-import bed from "./bed.svg"; //massage
-import heart from "./heart.svg"; //physio
-import leaf from "./leaf.svg"; //spa
-import sofa from "./sofa.svg"; //relax
+import bed from "./assets/bed.svg"; //massage
+import heart from "./assets/heart.svg"; //physio
+import leaf from "./assets/leaf.svg"; //spa
+import sofa from "./assets/sofa.svg"; //relax
 
 export default function Service() {
   return (

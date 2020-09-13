@@ -1,7 +1,7 @@
 //@ts-check
 import React from 'react';
 import "./landing.css";
-import down from "./down.svg";
+import down from "./assets/down.svg";
 
 export default function Landing() {
   return (
