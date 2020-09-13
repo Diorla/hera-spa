@@ -1,0 +1,33 @@
+#service,
+#service div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#service > div:last-child {
+  flex-direction: row;
+  align-items: flex-start;
+}
+article {
+  padding: 8px;
+  text-align: center;
+  line-height: 24px;
+  flex: 1;
+}
+h1 {
+  margin: 4px auto 0;
+}
+h1 + div {
+  padding: 4px;
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+@media screen and (max-width: 760px) {
+  article {
+    min-width: 240px;
+  }
+}
