@@ -1,0 +1,86 @@
+section.landing {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./massage.jpg");
+  background-size: cover;
+}
+nav h1 {
+  color: white;
+  text-shadow: 0 0 black;
+  font-size: 24px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+nav h1 {
+  color: white;
+  text-shadow: 0 0 black;
+  font-size: 24px;
+  text-align: center;
+  margin: 16px auto 4px;
+}
+ul {
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+}
+li {
+  flex: 1;
+  padding: 4px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+nav a {
+  color: chartreuse;
+}
+li:hover {
+  background: #7fff6b;
+  transition: 0.5s linear;
+}
+li:hover a {
+  color: black;
+}
+.landing main {
+  color: white;
+  text-shadow: 0 0 2px black;
+  text-align: center;
+  font-size: 21px;
+}
+#icon > img {
+  animation: jump 2s ease-in-out 0s infinite forwards;
+  height: 24px;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(-16px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-16px);
+  }
+}
+@media screen and (max-width: 425px) {
+  .bottom {
+    visibility: hidden;
+  }
+}
