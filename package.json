@@ -1,7 +1,14 @@
 {
-  "name": "n-app",
+  "name": "hera-spa",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Adeola Ade",
+    "email": "adedotster@gmail.com",
+    "url": "https://www.adeolaade.com"
+  },
+  "description": "Main site for hera spa and rejuvenation centre",
+  "license": "All right reserved",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
