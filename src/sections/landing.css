@@ -6,6 +6,8 @@ section.landing {
   align-items: center;
   background-image: url("./assets/massage.jpg");
   background-size: cover;
+  background-color: #613737;
+  background-blend-mode: soft-light;
 }
 nav h1 {
   color: white;
