@@ -32,7 +32,7 @@ nav h1 {
   text-align: center;
   margin: 16px auto 4px;
 }
-ul {
+nav ul {
   display: flex;
   width: 100%;
   max-width: 640px;
@@ -40,7 +40,7 @@ ul {
   flex-wrap: wrap;
   padding: 0;
 }
-li {
+nav li {
   flex: 1;
   padding: 4px;
   align-items: center;
@@ -54,11 +54,11 @@ nav a {
   color: chartreuse;
   text-shadow: 0 0 2px black;
 }
-li:hover {
+nav li:hover {
   background: #7fff6b;
   transition: 0.5s linear;
 }
-li:hover a {
+nav li:hover a {
   color: black;
   text-shadow: none;
 }
