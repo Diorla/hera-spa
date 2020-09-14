@@ -4,6 +4,7 @@ import "./App.css";
 import Landing from "./sections/Landing";
 import Service from "./sections/Service";
 import About from "./sections/About";
+import Gallery from "./sections/Gallery";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <Service />
       <About />
+      <Gallery />
     </div>
   );
 }
