@@ -11,7 +11,7 @@
   justify-content: space-evenly;
   background: #333;
   color: white;
-  min-width: 320px;
+  min-width: 240px;
   min-height: 240px;
 }
 #about > article:last-child {
