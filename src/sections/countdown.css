@@ -1,0 +1,37 @@
+#countdown {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+#countdown > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.countdown {
+  min-height: 150px;
+  font-size: 36px;
+}
+#countdown ul {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+}
+#countdown li {
+  list-style-image: url("./assets/diamond.svg");
+  line-height: 24px;
+}
+.prompt div, h3 {
+  margin: 8px;
+}
+.prompt a {
+  color: chartreuse;
+  font-weight: bold;
+  text-decoration: underline;
+}
