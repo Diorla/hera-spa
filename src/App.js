@@ -5,6 +5,7 @@ import Landing from "./sections/Landing";
 import Service from "./sections/Service";
 import About from "./sections/About";
 import Gallery from "./sections/Gallery";
+import Countdown from "./sections/Countdown";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Service />
       <About />
       <Gallery />
+      <Countdown />
     </div>
   );
 }
