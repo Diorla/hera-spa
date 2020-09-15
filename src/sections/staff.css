@@ -1,0 +1,43 @@
+#staff {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1 1;
+  flex-direction: column;
+  align-items: center;
+}
+.staff-top, .staff-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 960px;
+}
+.staff {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.staff img {
+  width: 200px;
+}
+.info {
+  max-width: 240px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 8px;
+}
+.icon {
+  color: black;
+  transition: 0.5s linear;
+  font-size: 21px;
+  margin-right: 8px;
+}
+.icon:hover {
+  transform: rotate(360deg);
+  color: salmon;
+}
