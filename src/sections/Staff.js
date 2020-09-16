@@ -7,19 +7,19 @@ import adorn from "./staff/adorn.jpg";
 import kola from "./staff/kola.jpg";
 //@ts-check
 const Facebook = ({ href }) => (
-  <a href={href} className="icon-link">
+  <a href={href}>
     <FaFacebook className="facebook icon" />
   </a>
 );
 
 const Twitter = ({ href }) => (
-  <a href={href} className="icon-link">
+  <a href={href}>
     <FaTwitter className="twitter icon" />
   </a>
 );
 
 const Linkedin = ({ href }) => (
-  <a href={href} className="icon-link">
+  <a href={href}>
     <FaLinkedin className="linkedin icon" />
   </a>
 );
