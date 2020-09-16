@@ -7,6 +7,7 @@ import About from "./sections/About";
 import Gallery from "./sections/Gallery";
 import Countdown from "./sections/Countdown";
 import Staff from "./sections/Staff";
+import Form from "./sections/Form";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Gallery />
       <Countdown />
       <Staff />
+      <Form />
     </div>
   );
 }
