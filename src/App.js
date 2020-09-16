@@ -9,6 +9,7 @@ import Countdown from "./sections/Countdown";
 import Staff from "./sections/Staff";
 import Form from "./sections/Form";
 import { FaArrowUp } from "react-icons/fa";
+import Footer from "./sections/Footer";
 // import
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Countdown />
       <Staff />
       <Form />
+      <Footer />
       <a href="#top" className="up-link">
         <FaArrowUp className="up-icon" />
       </a>
