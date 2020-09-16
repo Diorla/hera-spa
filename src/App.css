@@ -30,3 +30,16 @@ a {
 html {
   scroll-behavior: smooth;
 }
+.up-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: saddlebrown;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 0 4px black;
+}
+.up-link:hover {
+  background-color: #8b4513d1;
+}
