@@ -1,0 +1,61 @@
+#contact {
+  background-image: url("./assets/physical.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 400px;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: chartreuse;
+  background-blend-mode: luminosity;
+}
+#contact > address,
+#contact > form {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  max-width: 640px;
+  text-align: center;
+  min-width: 270px;
+  height: 300px;
+  justify-content: space-evenly;
+  padding: 8px;
+  margin: 8px;
+  box-shadow: 0 0 2px inset;
+}
+address h1 {
+  text-shadow: 0 0 2px white;
+}
+address > div {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff9f;
+}
+
+form > input,
+form > textarea {
+  border: 1px solid silver;
+  font-size: 16px;
+  padding: 4px;
+  background-color: #ffffff9f;
+}
+form > input:focus,
+form > textarea:focus {
+  border: 1px solid salmon;
+}
+form button {
+  width: 100px;
+  margin: 0 auto;
+  border: none;
+  padding: 4px;
+  background: saddlebrown;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+form button:hover {
+  background-color: #8b4513c4;
+}
