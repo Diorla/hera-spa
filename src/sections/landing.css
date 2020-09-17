@@ -83,8 +83,3 @@ nav li:hover a {
     transform: translateY(-16px);
   }
 }
-@media screen and (max-width: 425px) {
-  .bottom {
-    visibility: hidden;
-  }
-}
