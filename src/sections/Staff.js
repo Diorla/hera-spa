@@ -40,11 +40,8 @@ const Member = ({
       <div>{description}</div>
       <div>
         {facebook && <Facebook href={facebook} />}
-        {twitter && <Twitter href={twitter} />}
         {linkedin && <Linkedin href={linkedin} />}
-        {/* <Facebook href="/" />
-        <Twitter href="/" />
-        <Linkedin href="/" /> */}
+        {twitter && <Twitter href={twitter} />}
       </div>
     </div>
   </div>
@@ -57,8 +54,8 @@ export default function Staff() {
           src={tayo}
           name="Tayo"
           job="Physiotherapist"
-          twitter="https://www.twitter.com/@_caphie"
-          facebook="https://www.facebook.com/caphie"
+          facebook="https://www.facebook.com/"
+          twitter="https://www.twitter.com/"
           description="Et nostrud laboris laborum adipisicing ad nisi magna sint ex officia
         Lorem irure."
         />
@@ -66,7 +63,8 @@ export default function Staff() {
           src={enitan}
           name="Kolapo Enitan"
           job="Massage therapist"
-          twitter="https://www.twitter.com/@ooklap"
+          linkedin="https://www.linkedin.com/"
+          twitter="https://www.twitter.com/"
           description="Et nostrud laboris laborum adipisicing ad nisi magna sint ex officia
         Lorem irure."
         />
@@ -76,7 +74,7 @@ export default function Staff() {
           src={adorn}
           name="Adorn Vasark"
           job="Massage therapist"
-          twitter="https://www.twitter.com/@ad_talk"
+          facebook="https://www.facebook.com/"
           description="Et nostrud laboris laborum adipisicing ad nisi magna sint ex officia
         Lorem irure."
         />
@@ -84,7 +82,7 @@ export default function Staff() {
           src={kola}
           name="Adekola Origbamila"
           job="Spa therapist"
-          twitter="https://www.twitter.com/@kolagbamila"
+          twitter="https://www.twitter.com/"
           description="Et nostrud laboris laborum adipisicing ad nisi magna sint ex officia
       Lorem irure."
         />
