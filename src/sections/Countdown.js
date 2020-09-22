@@ -39,7 +39,7 @@ export default function Countdown() {
         </ul>
         <div>So what are you waiting for?</div>
         <div>
-          <a href="#register">Register</a> now for free!
+          <a href="#contact">Register</a> now for free!
         </div>
       </div>
     </section>
