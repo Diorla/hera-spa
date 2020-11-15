@@ -26,6 +26,7 @@
   width: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-left: 60px;
 }
 #countdown li {
   list-style-image: url("./assets/diamond.svg");
