@@ -6,7 +6,8 @@
   flex-direction: column;
   align-items: center;
 }
-.staff-top, .staff-bottom {
+.staff-top,
+.staff-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -16,7 +17,7 @@
   display: flex;
   padding: 8px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .staff img {
   width: 200px;
@@ -29,6 +30,17 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .info {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+  h2 {
+    margin: 4px;
+  }
 }
 .icon {
   color: black;
